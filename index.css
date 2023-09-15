@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background-color: black;
+   }
+
+.Mcdo {
+background-image: url("/Mcdo.png");
+height: 100px;
+}
+.Sm {
+background-image: url("/Sm.png");
+height: 100px;
+}
+.Jollibee {
+background-image: url("/Jollibee.jpeg");
+width: 100%;
+height: 10px;
+}
+.Selecta {
+background-image: url("Selecta.png");
+}
+.Ritemed {
+background-image: url("Ritemed.png");
+}
+.Rexona {
+background-image: url("Rexona.webp");
+}
+.logo {
+background-size: cover;
+background-color: white;
+outline: none;
+border: 10px solid gray;
+border-radius: 25px;
+font-size: 5rem;
+font-family: 'Roboto', cursive;
+font-weight: 900;
+line-height: 5;
+color:transparent;
+display: inline-block;
+width: 500px;
+height: 500px;
+margin: 15px;
+text-align: center;
+}
+
