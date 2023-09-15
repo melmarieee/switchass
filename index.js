@@ -1,12 +1,12 @@
-var carButtons = document.querySelectorAll("button").length;
-console.log(carButtons);
+var comButtons = document.querySelectorAll("button").length;
+console.log(comButtons);
 
-for (var i = 0; i < carButtons; i++) {
+for (var i = 0; i < comButtons; i++) {
     document.querySelectorAll("button")[i].addEventListener("click", function(){
 
-    var cars = this.innerText;
-    console.log("button");
-    switch (cars) {
+    var commercial = this.innerText;
+    console.log("commercial");
+    switch (commercial) {
         case "Mcdo":
             var Mcdo = new Audio("sounds/Mcdo.mp3");
             Mcdo.play();
